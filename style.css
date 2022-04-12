@@ -14,6 +14,7 @@
   --black-light: #232f3e;
   --black-light-2: #333;
   --gray: #ccc;
+  --gray-light: #ddd;
   --white-light: #fafafa;
   --yellow: #febd68;
   --yellow-heavy: #ffd812;
@@ -335,6 +336,7 @@ body {
 .card {
   display: flex;
   align-items: center;
+  height: 250px;
 }
 
 .card .price,
@@ -375,13 +377,13 @@ body {
 }
 
 .borderX {
-  border-right: var(--gray) 1px solid;
-  border-left: var(--gray) 1px solid;
+  border-right: var(--gray-light) 1px solid;
+  border-left: var(--gray-light) 1px solid;
   padding: 0 10px;
 }
 
 .borderL {
-  border-left: var(--gray) 1px solid;
+  border-left: var(--gray-light) 1px solid;
   padding: 0 10px;
 }
 /* component */
