@@ -271,6 +271,14 @@ body {
 }
 /* Nav */
 
+/* ad */
+.ad img {
+  height: 170px;
+  object-fit: cover;
+}
+/* ad */
+
+
 /* cart */
 .cart {
   display: flex;
