@@ -19,6 +19,7 @@
   --yellow: #febd68;
   --yellow-heavy: #ffd812;
   --blue: #1a788b;
+  --blue-light: #007185;
 }
 
 body {
@@ -72,6 +73,10 @@ body {
 
 .fs-13 {
   font-size: 13px !important;
+}
+
+.fs-14 {
+  font-size: 14px !important;
 }
 /* Colors */
 
@@ -336,7 +341,11 @@ body {
 .card {
   display: flex;
   align-items: center;
-  height: 250px;
+  padding: 50px 0;
+}
+
+.card > input {
+  accent-color: var(--blue-light);
 }
 
 .card .price,
@@ -347,7 +356,7 @@ body {
   font-size: 16px;
 }
 
-.card > div > img {
+.card .image-box img {
   object-fit: cover;
 }
 
