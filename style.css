@@ -43,7 +43,20 @@ body {
 
 /* utility */
 
+.underline{
+  text-decoration: underline;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
 /* Colors */
+
+.bg-transparent {
+  background: transparent;
+  border: none;
+}
 
 .bg-white {
   background: white;
@@ -493,7 +506,7 @@ body {
   text-decoration: none;
 }
 
-.cart .cart__box .content button:hover,
+.cart .cart__box .content a:hover,
 .btn:hover {
   background: var(--yellow);
 }
@@ -551,8 +564,14 @@ body {
 }
 
 .card .card-content p,
-.card .card-content span {
+.card .card-content span,
+.card .card-content ul li a  {
   font-size: 11px;
+}
+
+.card .card-content ul li a {
+  text-decoration: none;
+  color: var(--blue);
 }
 
 .body-layout {
